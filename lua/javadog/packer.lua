@@ -9,9 +9,24 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim'
+
+  -- load color themes (only one?)
+  -- -------------------------
+  -- use 'folke/tokyonight.nvim'
+  -- use 'lunarvim/darkplus.nvim'
+  use 'navarasu/onedark.nvim'
+
+  -- Telescope
   use {
       'nvim-telescope/telescope.nvim', tag = '0.1.0',
       requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  -- Treesitter
+  use {
+     'nvim-treesitter/nvim-treesitter',
+      run = ':TSUpdate'
+  }
+
+  use 'p00f/nvim-ts-rainbow'
 end)
