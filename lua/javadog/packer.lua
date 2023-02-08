@@ -28,5 +28,15 @@ return require('packer').startup(function(use)
       run = ':TSUpdate'
   }
 
+  -- Which key
+  use 'liuchengxu/vim-which-key'
+
+  -- show Which Key
+  use {
+    'AckslD/nvim-whichkey-setup.lua',
+    requires = {'liuchengxu/vim-which-key'},
+  }
+
+  -- Color brackets
   use 'p00f/nvim-ts-rainbow'
 end)

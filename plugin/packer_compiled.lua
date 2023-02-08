@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/bnystrom/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
     url = "https://github.com/p00f/nvim-ts-rainbow"
   },
+  ["nvim-whichkey-setup.lua"] = {
+    loaded = true,
+    path = "/home/bnystrom/.local/share/nvim/site/pack/packer/start/nvim-whichkey-setup.lua",
+    url = "https://github.com/AckslD/nvim-whichkey-setup.lua"
+  },
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/bnystrom/.local/share/nvim/site/pack/packer/start/onedark.nvim",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bnystrom/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-which-key"] = {
+    loaded = true,
+    path = "/home/bnystrom/.local/share/nvim/site/pack/packer/start/vim-which-key",
+    url = "https://github.com/liuchengxu/vim-which-key"
   }
 }
 
